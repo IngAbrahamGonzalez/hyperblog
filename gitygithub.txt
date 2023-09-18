@@ -1,0 +1,99 @@
+GIT
+sistema de control de versiones distribuido
+--> cambios incrementales
+--> se puede regresar a versiones anteriores
+--> manejo de registos
+--> cuenta con 3 estados staged modified y committed
+
+comandos git
+git init --> inicializar git
+git status --> ver el status de git
+git add --> adherir un archivo a git
+git rm --> borrar un archivo de git
+git rm --cached --> lo remueve de la ram
+git commit -m "texto" --> sirve para comentar el commit como buena practica
+git config --list --> configuracion de git y sus faltantes
+git add . --> sirve para adherir todos los archivos de la carpeta a git
+git show --> te muestra el ultimo cambio que se realizo en todo el repo
+git show "nombre del archivo" --> te enseña las modificaciones del mismo
+git commit -a --> hace el git add de los archivos con los que previamente usaste git add
+git log --> ver las modificaciones (commits)
+git log --stat --> ver modificaciones mas especificas de los commits
+git branch "nombre" --> para crear una rama adicional a la master
+git checkout "nombre" --> para cambiar a dicho rama adicional(es)
+git merge "nombre de la rama" --> fusiona ambos proyectos en 1
+
+esc+i --> entrar en modo edicion de texto del commit
+esc+shift+z+z --> salir del editor vim al enviar forzosamente un commit
+
+git fiff  "copiar el commit 1" "copiar el commit 2" --> sirve para comparar los cambios en los commit
+
+fit reset "commit" --hard --> vuelve al commit introducido (version anterior)
+
+git checkout "commit" "nombre del archivo" --> se muestra el commit seleccionado pero no se modificaa a menos que se realice un commit mas
+git checkout master "nombre del archivo" --> se regresa lo ultimo guardado
+
+
+    git reset --soft: Borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en Staging para aplicar las últimas actualizaciones a un nuevo commit.
+    git reset --hard: Deshace todo, absolutamente todo. Toda la información de los commits y del área de staging se elimina del historial.
+    git reset --mixed: Borra todo, exactamente todo. Toda la información de los commits y del área de staging se elimina del historial.
+    git reset HEAD: El comando git reset saca archivos del área de staging sin borrarlos ni realizar otras acciones. Esto impide que los últimos cambios en estos archivos se envíen al último commit. Podemos incluirlos de nuevo en staging con git add si cambiamos de opinión.
+
+Para reescribir la historia del repositorio y eliminar confirmaciones anteriores, se utiliza git reset. Para deshacer cambios de confirmaciones anteriores de forma segura sin modificar la historia del repositorio, se emplea git revert.
+
+GitHub es lo mismo que git pero colaborativo
+
+
+
+consola 
+mkdir --> crear carpetas
+touch --> crear archivo vacio
+cat --> visualiza lo que tiene el archivo
+history --> muestra todo el historial de comandos
+rm --> sirve para elimiar los archivos
+
+
+es recomendable trabajar en una rama propia antes de realizar un merge, para evitar realizar cambios innecesarios o que puedan provocar un problema dentro del codigo.
+
+
+para crear una llave privada y publica se usa este comando
+ssh-keygen -t rsa -b 4096 -C "correo al que va a estar ligada"
+para verificar si el servidor de ssh esta activo se usa el siguiente comando
+eval $(ssh-agent -s)
+para agregar la llave privada al entorno se usa el siguiente codigo
+ssh-add ~/.ssh/id_rsa
+
+para vincular el git con github se copia la url http de github y se pone el sig codigo en el bash de git
+git remote add origin "url de github sin comillas"
+
+para verificar si se realizo la conexion se usa el sig codigo
+git remote
+
+fetch --> recibir cosas
+push --> enviar cosas
+
+git push origin master --> copia todo lo que tienes en la rama master a la origin de github
+
+git pull origin master --> trae todo lo de la rama origin a la rama master de git
+
+antes de realizar el git push recordar siempre hacer el commit para guardar los cambios realizados
+
+git log --all --graph --decorate --oneline --> te muestra todos los cambios realizados de una manera comprimida
+
+alias "nombre del alias sin comillas" ="comando largo" --> crea un alias para que no tengas que escribir todo el comando completo
+
+git tag -a "nombre del tag sin comillas" -m "descripcion del tag" "codigo del commit sin comillas" --> agrega un tag a esa version del proyecto
+
+despues de agregar un tag es recomendable hacer el pull ya que usualmente es importante en github para ver las versiones del mismo
+
+git tag -d "nombre del tag a borrar sin comillas" --> borra el tag dentro de git
+
+git push origin :refs/tags/"nombre del tag a borrar sin comillas" --> borra el tag de la interfaz del github
+
+git show--branch --> te muestra las ramas que hay
+
+git show--branch --all --> te muestra las ramas que hay y sus cambios
+
+gitk --> muestra una version grafica de todo el proyecto
+
+me quedo en el 25
