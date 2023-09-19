@@ -97,3 +97,5 @@ git show--branch --all --> te muestra las ramas que hay y sus cambios
 gitk --> muestra una version grafica de todo el proyecto
 
 me quedo en el 25
+
+git clone "url sin comillas" --> te clona el repo de la url
