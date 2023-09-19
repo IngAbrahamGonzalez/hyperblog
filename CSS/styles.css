@@ -37,6 +37,13 @@ body {
     }
 }
 
+#footer
+{
+    background: #FFA500;
+    color: white;
+    text-align: center;
+}
+
 footer {
     color: red;
     text-align: center;
