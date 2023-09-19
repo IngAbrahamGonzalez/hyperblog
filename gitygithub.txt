@@ -98,4 +98,4 @@ gitk --> muestra una version grafica de todo el proyecto
 
 me quedo en el 25
 
-git clone "url sin comillas" --> te clona el repositorio que estas poniendo
+git clone "url sin comillas" --> te clona el repo de la url
