@@ -72,9 +72,9 @@ git remote
 fetch --> recibir cosas
 push --> enviar cosas
 
-git push origin master --> copia todo lo que tienes en la rama master a la origin de github
+git push origin main --> copia todo lo que tienes en la rama master a la origin de github
 
-git pull origin master --> trae todo lo de la rama origin a la rama master de git
+git pull origin main --> trae todo lo de la rama origin a la rama master de git
 
 antes de realizar el git push recordar siempre hacer el commit para guardar los cambios realizados
 
