@@ -115,3 +115,7 @@ git stash pop --> regresa lo previamente guardado para modificarlo o realizar el
 
 git stash drop --> elimina los cambios del stash
 
+git clean --dry--run --> muestra o simula los archivos que seran borrados
+
+git clean -f --> borra archivos duplicados pero no carpetas ni los que estan en el archivo .gitignore
+
