@@ -106,6 +106,10 @@ para repositorios internos
 git rebase "nombre de la rama sin comillas" --> copia lo de la rama en 
 la que estas actualemnte y la pega en la rama que indicas
 
-recordando que se utiliza el rebase primero en una rama aledaña a la titular 
-y despues a la titular
+recordando que se utiliza el rebase primero en una rama aledaña a la final 
+y despues a la final
+
+git stash --> sirve para guardar los cambios realizados temporalmente
+
+git stash pop --> regresa lo previamente guardado para modificarlo o realizar el commit
 
