@@ -119,3 +119,11 @@ git clean --dry--run --> muestra o simula los archivos que seran borrados
 
 git clean -f --> borra archivos duplicados pero no carpetas ni los que estan en el archivo .gitignore
 
+git cherry-pick "numero del commit" --> sirve para traer una actualizacion en especifico
+desde la rama seleccionada
+
+git reflog --> sirve para ver toda la historia completa del proyecto
+
+git reset --HARD "hash sin comillas" --> para recuperar todo a partir del hash hacia atras
+
+git reset --SOFT --> recupera todo y lo que esta en staging lo mantiene (lo que no esta comitteado aun)
