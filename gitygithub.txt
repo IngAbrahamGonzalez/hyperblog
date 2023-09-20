@@ -103,3 +103,6 @@ git clone "url sin comillas" --> te clona el repo de la url
 los rebase son mala practica para repositorios externos, solamente es recomendable
 para repositorios internos
 
+git rebase "nombre de la rama sin comillas" --> copia lo de la rama en 
+la que estas actualemnte y la pega en la rama que indicas
+
