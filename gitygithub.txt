@@ -113,3 +113,5 @@ git stash --> sirve para guardar los cambios realizados temporalmente
 
 git stash pop --> regresa lo previamente guardado para modificarlo o realizar el commit
 
+git stash drop --> elimina los cambios del stash
+
