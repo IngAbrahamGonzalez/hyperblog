@@ -106,3 +106,6 @@ para repositorios internos
 git rebase "nombre de la rama sin comillas" --> copia lo de la rama en 
 la que estas actualemnte y la pega en la rama que indicas
 
+recordando que se utiliza el rebase primero en una rama aledaña a la titular 
+y despues a la titular
+
