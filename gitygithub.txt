@@ -99,3 +99,7 @@ gitk --> muestra una version grafica de todo el proyecto
 me quedo en el 25
 
 git clone "url sin comillas" --> te clona el repo de la url
+
+los rebase son mala practica para repositorios externos, solamente es recomendable
+para repositorios internos
+
