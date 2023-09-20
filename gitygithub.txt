@@ -127,3 +127,37 @@ git reflog --> sirve para ver toda la historia completa del proyecto
 git reset --HARD "hash sin comillas" --> para recuperar todo a partir del hash hacia atras
 
 git reset --SOFT --> recupera todo y lo que esta en staging lo mantiene (lo que no esta comitteado aun)
+
+git commit --amend --> los cambios que se hicieron se pegan al commit anterior
+
+git grep "palabra a buscar sin comillas" --> busca en todos los lugares donde se utilizo esa palabra
+
+git grep -n "palabra a buscar sin comillas" --> te muestra donde se realizo la busqueda y la linea donde esta
+
+git grep -c "palabra a buscar sin comillas" --> hace un conteo de cuantas veces usas esa palabra
+
+git log -S "palabra a buscar con comillas" --> busca en el historial del repo la palabra
+
+git shortlog --> cuantos commits han hecho cada miembro del equipo
+
+git shortlog -sn --> muestra solamente las personas que han hecho commits
+
+git shortlog -sn --all --> todos los commits incluso los que han sido borrados
+
+git shortlog -sn --all --no-merges --> los commits sin merges
+
+git congig --global alias.stats "git shortlog -sn --all --no-merges" --> te crea un alias para ese codigo
+
+git blame "nombre del archivo sin comillas" --> quien ha hecho que en el archivo
+
+git blame -c "nombre del archivo" --> lo mismo que el blame pero mejor estructurado
+
+git "comando sin comillas" --help --> te muestra ayudas de como usar ese comando
+
+git blame "ruta del archivo y nombre sin comillas" -L"numero de linea inicial sin comillas","numero de linea final sin comillas" 
+muestra quien modifico ese archivo de linea A a linea B
+
+git branch -r --> muestra las ramas remotas (las del servidor)
+
+git branch -a --> muestra las ramas locales y las remotas
+
