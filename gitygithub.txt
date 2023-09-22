@@ -22,6 +22,8 @@ git log --stat --> ver modificaciones mas especificas de los commits
 git branch "nombre" --> para crear una rama adicional a la master
 git checkout "nombre" --> para cambiar a dicho rama adicional(es)
 git merge "nombre de la rama" --> fusiona ambos proyectos en 1
+git branch -m master main --> para cambiar el nombre de la rama master a main
+git pull origin main --allow-unrelated-histories --> permite la fusion de historias no relacionadas
 
 esc+i --> entrar en modo edicion de texto del commit
 esc+shift+z+z --> salir del editor vim al enviar forzosamente un commit
@@ -161,3 +163,7 @@ git branch -r --> muestra las ramas remotas (las del servidor)
 
 git branch -a --> muestra las ramas locales y las remotas
 
+
+C#
+dotnet --version --> verificar que version de dotnet tienes
+dotnet new console -o "nombre del archivo sin comillas" --> para crear un nuevo proyecto c# desde consola
