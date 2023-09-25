@@ -1,0 +1,19 @@
+bit = 1 o 0
+byte = 8 bits
+
+señal del teclado
+->moderboard
+-->CPU
+--->O.S(drivers)
+---->chrome
+->evento
+-->JavaScript ()
+--->AJAX (toma todos los datos del usuario y los envia)
+---->JSON (encapsula los datos del usuario)
+----->reset (Protocolo de envio de datos)
+------>HTTP (protocolo de trasnferencia de hipertexto)
+
+0 kernel
+1 drivera
+2 apps y drivers de arranque
+3 apps 
