@@ -1,0 +1,31 @@
+Responsabilidades de FrontEnd
+
+1.- Tener las bases de HTML, CSS y Java Script
+2.- Conocer Frameworks de JavaScript
+3.- Que Frameworks de CSS
+4.- conocer algun preprocesador (Sass)
+5.- Consumir APIs
+6.- Diseño Responsivo
+7.- Compatibilidad
+8- Testing y Debugging
+9.- Git / GitHub
+10.- Accesibilidad y performance
+
+
+Junior
+menos de 2 años experiencia
+necesita ser guiado
+ganas de aprender
+
+Semi-Senior
+entre 2 y 5 años experiencia
+no requiere ser guiado
+proactivo
+propositivo
+
+Senior
+5 o 6 años de experiencia
+alta autonomia
+alta productividad
+
+ 

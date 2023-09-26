@@ -8,7 +8,7 @@ señal del teclado
 ---->chrome
 ->evento
 -->JavaScript ()
---->AJAX (toma todos los datos del usuario y los envia)
+--->AJAX (toma todos los datos del usuario y los envia) pero no actuliza la pagina
 ---->JSON (encapsula los datos del usuario)
 ----->reset (Protocolo de envio de datos)
 ------>HTTP (protocolo de trasnferencia de hipertexto)
@@ -17,3 +17,7 @@ señal del teclado
 1 drivera
 2 apps y drivers de arranque
 3 apps 
+
+
+post --> enviar variables (datos) 
+127.0.0.1 o localhost --> en el puerto 8080
