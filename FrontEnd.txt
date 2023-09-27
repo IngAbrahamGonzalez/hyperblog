@@ -29,3 +29,19 @@ alta autonomia
 alta productividad
 
  
+ replicar apps que te gusten
+ realizar mini apps
+ consumir APIs
+
+ El HTML semantico no nos permite:
+ #id h1::first.letter es mas especifico que p. sidemenu div:hover
+
+ que es ::before --> pseudoelemento
+ como se le conoce a la siguiente sentencia var nombre; --> variable
+ que podemos esperar al llamar el metodo .pop(); --> borra
+ que resultado podria esperar de esta validacion 6===6 --> true
+ que significa coercion en js? --> 
+ que es un array --> es una estructura de datos de tipo objeto
+ variables declaradas con let y const son de block scope --> verdadero
+
+ 
