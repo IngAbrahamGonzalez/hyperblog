@@ -1,0 +1,17 @@
+concurrencia --> monohilo pero sus entradas y salidas son asincronas, un proceso para cada hilo del procesador
+corre en un motor v8 
+modulos --> pizas de codigo muy pequeñas que nos permiten entender todo a la perfeccion
+orientado a eventos
+event loop --> 
+thread pool --> crea un hilo para cada peticion sin afectar el proceso actual
+variables de entorno foraneas por buena practica con mayusculas
+
+nodemon
+nodemon "nombre del archivo" --> ejecuta el proceso y reinicia cuando hay algun cambio
+
+pm2 
+pm2 start --> inica el proceso
+pm2 stop "numero del proceso iniciado sin comillas" --> parar el proceso
+
+nodemon es para entorno de desarrollo y pm2 para entorno de produccion
+
