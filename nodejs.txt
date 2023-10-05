@@ -15,3 +15,4 @@ pm2 stop "numero del proceso iniciado sin comillas" --> parar el proceso
 
 nodemon es para entorno de desarrollo y pm2 para entorno de produccion
 
+async await --> 
